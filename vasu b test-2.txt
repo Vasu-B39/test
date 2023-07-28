@@ -1,0 +1,114 @@
+1. The concept of method overloading define as one method name declare multi or diffrent parameter.
+
+example: class Method{
+
+	String name;
+	int count;
+  
+ public  static MethodOverloading(String name, int count);// method over loading
+{
+   System.out.println(",,,,,......");
+}
+}
+
+2. the diffrent types of variables are three types these are 
+	1. Local variable
+	Ex. String name;
+            
+	2. Static variable
+	Ex.static  methodname(String namne)
+
+	3. instance variable
+	Ex.String name="instant";
+
+class method{
+    
+public static void main(String[] args){
+
+string name;
+
+    static MethodName(String nmae)//static variable or class variable
+{
+	System.out.println("hff hvchc "+name);
+}
+    int count=12;//instant variable
+
+    String name;
+    this.name=name;
+    
+}
+
+3. Stack memory is the acess all varibles to store the location of memory
+   Heap access the class loading and instance variable of the memory.
+
+4. class Master{
+     
+   
+public void Master()
+{
+  System.out.println("invoke the main method");
+}
+  public String void main(String[] args)
+{
+  System.out.println("invoke the runing  main method");
+	Master master=new Master();
+   
+}
+}
+
+5.  class Master{
+     String name;
+   
+public void Master( String name)
+{
+  System.out.println("invoke the main method");
+}
+  public String void main(String[] args)
+{
+  System.out.println("invoke the runing  main method");
+	Master master=new Master("gurur sir");
+   System.out.println("invoke the runing  main method"+master.name);
+}
+}
+
+7. class Master{
+     String name;
+     int height;
+     double weight;
+
+public void Master()
+{
+  System.out.println("invoke the main method");
+}
+   
+public void Master( String name)
+{
+  System.out.println("invoke the main method");
+  this.name=name;
+}
+
+public void Master( String name,int height)
+{
+  this.name();
+  System.out.println("invoke the main method");
+  this.height=height;
+}
+
+public void Master( String name,int height, double weight)
+{
+  this.name, height();
+  System.out.println("invoke the main method");
+  this.weight=weight;
+}
+  public String void main(String[] args)
+{
+  System.out.println("invoke the runing  main method");
+	Master master=new Master();
+	Master master1=new Master("guru");
+	Master master2=new Master("guru", 5);
+	Master master2=new Master("guru", 5, 80);
+
+  
+}
+}
+
